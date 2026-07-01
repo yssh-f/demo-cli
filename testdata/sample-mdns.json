@@ -1,0 +1,111 @@
+[
+  {
+    "type": "PTR",
+    "name": "_workstation._tcp.local",
+    "value": "slw-nas [24:5e:be:69:a3:13]._workstation._tcp.local",
+    "ttl": 10
+  },
+  {
+    "type": "SRV",
+    "name": "slw-nas [24:5e:be:69:a3:13]._workstation._tcp.local",
+    "hostname": "slw-nas.local",
+    "port": 9,
+    "ttl": 10
+  },
+  {
+    "type": "PTR",
+    "name": "_http._tcp.local",
+    "value": "slw-nas._http._tcp.local",
+    "ttl": 10
+  },
+  {
+    "type": "SRV",
+    "name": "slw-nas._http._tcp.local",
+    "hostname": "slw-nas.local",
+    "port": 5000,
+    "ttl": 10
+  },
+  {
+    "type": "TXT",
+    "name": "slw-nas._http._tcp.local",
+    "txt": ["path=/"],
+    "ttl": 10
+  },
+  {
+    "type": "PTR",
+    "name": "_smb._tcp.local",
+    "value": "slw-nas._smb._tcp.local",
+    "ttl": 10
+  },
+  {
+    "type": "SRV",
+    "name": "slw-nas._smb._tcp.local",
+    "hostname": "slw-nas.local",
+    "port": 445,
+    "ttl": 10
+  },
+  {
+    "type": "PTR",
+    "name": "_qdiscover._tcp.local",
+    "value": "slw-nas._qdiscover._tcp.local",
+    "ttl": 10
+  },
+  {
+    "type": "SRV",
+    "name": "slw-nas._qdiscover._tcp.local",
+    "hostname": "slw-nas.local",
+    "port": 5000,
+    "ttl": 10
+  },
+  {
+    "type": "TXT",
+    "name": "slw-nas._qdiscover._tcp.local",
+    "txt": [
+      "accessType=https",
+      "accessPort=86",
+      "model=TS-X64",
+      "displayModel=TS-464C",
+      "fwVer=5.2.9",
+      "fwBuildNum=20260214"
+    ],
+    "ttl": 10
+  },
+  {
+    "type": "PTR",
+    "name": "_device-info._tcp.local",
+    "value": "slw-nas(AFP)._device-info._tcp.local",
+    "ttl": 10
+  },
+  {
+    "type": "TXT",
+    "name": "slw-nas(AFP)._device-info._tcp.local",
+    "hostname": "slw-nas.local",
+    "txt": ["model=Xserve"],
+    "ttl": 10
+  },
+  {
+    "type": "PTR",
+    "name": "_afpovertcp._tcp.local",
+    "value": "slw-nas(AFP)._afpovertcp._tcp.local",
+    "ttl": 10
+  },
+  {
+    "type": "SRV",
+    "name": "slw-nas(AFP)._afpovertcp._tcp.local",
+    "hostname": "slw-nas.local",
+    "port": 548,
+    "ttl": 10
+  },
+  {
+    "type": "A",
+    "name": "slw-nas.local",
+    "ipv4": "192.168.1.20",
+    "ttl": 10
+  },
+  {
+    "type": "AAAA",
+    "name": "slw-nas.local",
+    "ipv6": "fe80::265e:beff:fe69:a313",
+    "ttl": 10
+  }
+]
